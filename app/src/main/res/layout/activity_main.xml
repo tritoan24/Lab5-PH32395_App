@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:hint="Tìm Kiếm"
+        android:layout_margin="10dp" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="330dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_height="40dp"
+        android:layout_width="330dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/custtombutton"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="Thêm School" />
+
+</LinearLayout>

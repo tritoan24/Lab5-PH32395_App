@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="330dp"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="20dp"
+    android:paddingBottom="10dp"
+    android:gravity="center"
+   >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:cardCornerRadius="10dp"
+        android:layout_gravity="center"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            >
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="ádkjf"
+        android:textSize="16sp"/>
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/txtsua"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:text="Sửa"
+            app:backgroundTint="@null"
+
+            android:gravity="center"
+            android:background="@drawable/custtombutton"
+
+            />
+        <TextView
+            android:id="@+id/txtxoa"
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:text="Xóa"
+            android:background="#ED1E1E"
+            android:gravity="center"
+            android:textColor="#E80000"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
